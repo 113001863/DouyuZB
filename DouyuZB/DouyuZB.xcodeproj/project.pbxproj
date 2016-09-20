@@ -13,6 +13,11 @@
 		316FA39B1D91074E00044CFC /* DouyuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FA39A1D91074E00044CFC /* DouyuZBTests.swift */; };
 		316FA3A61D91074E00044CFC /* DouyuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FA3A51D91074E00044CFC /* DouyuZBUITests.swift */; };
 		316FA3CF1D91171400044CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316FA3CD1D91171400044CFC /* Main.storyboard */; };
+		316FA3D21D911D1D00044CFC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316FA3D01D911D1D00044CFC /* Home.storyboard */; };
+		316FA3D51D911D3B00044CFC /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316FA3D31D911D3B00044CFC /* Live.storyboard */; };
+		316FA3D81D911D9400044CFC /* Fllow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316FA3D61D911D9400044CFC /* Fllow.storyboard */; };
+		316FA3DB1D911DA600044CFC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316FA3D91D911DA600044CFC /* Profile.storyboard */; };
+		316FA3DD1D911F6100044CFC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FA3DC1D911F6100044CFC /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		316FA3A51D91074E00044CFC /* DouyuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouyuZBUITests.swift; sourceTree = "<group>"; };
 		316FA3A71D91074E00044CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316FA3CE1D91171400044CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZB/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		316FA3D11D911D1D00044CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZB/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		316FA3D41D911D3B00044CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZB/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		316FA3D71D911D9400044CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZB/Base.lproj/Fllow.storyboard; sourceTree = SOURCE_ROOT; };
+		316FA3DA1D911DA600044CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZB/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		316FA3DC1D911F6100044CFC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = DouyuZB/Classes/MainViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +148,7 @@
 		316FA3B41D91085B00044CFC /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				316FA3D61D911D9400044CFC /* Fllow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 		316FA3B51D91085B00044CFC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				316FA3D01D911D1D00044CFC /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -152,6 +164,7 @@
 		316FA3B61D91085B00044CFC /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				316FA3D31D911D3B00044CFC /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -160,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				316FA3CD1D91171400044CFC /* Main.storyboard */,
+				316FA3DC1D911F6100044CFC /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,6 +181,7 @@
 		316FA3B81D91085B00044CFC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				316FA3D91D911DA600044CFC /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -291,6 +306,10 @@
 				316FA3CF1D91171400044CFC /* Main.storyboard in Resources */,
 				316FA3901D91074E00044CFC /* LaunchScreen.storyboard in Resources */,
 				316FA38D1D91074E00044CFC /* Assets.xcassets in Resources */,
+				316FA3D51D911D3B00044CFC /* Live.storyboard in Resources */,
+				316FA3D21D911D1D00044CFC /* Home.storyboard in Resources */,
+				316FA3DB1D911DA600044CFC /* Profile.storyboard in Resources */,
+				316FA3D81D911D9400044CFC /* Fllow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				316FA3861D91074E00044CFC /* AppDelegate.swift in Sources */,
+				316FA3DD1D911F6100044CFC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +385,42 @@
 				316FA3CE1D91171400044CFC /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		316FA3D01D911D1D00044CFC /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316FA3D11D911D1D00044CFC /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		316FA3D31D911D3B00044CFC /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316FA3D41D911D3B00044CFC /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		316FA3D61D911D9400044CFC /* Fllow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316FA3D71D911D9400044CFC /* Base */,
+			);
+			name = Fllow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		316FA3D91D911DA600044CFC /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316FA3DA1D911DA600044CFC /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -470,7 +526,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 65SR839NQ3;
 				INFOPLIST_FILE = DouyuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Via.DouyuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,7 +541,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 65SR839NQ3;
 				INFOPLIST_FILE = DouyuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Via.DouyuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
