@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		316FA3861D91074E00044CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FA3851D91074E00044CFC /* AppDelegate.swift */; };
-		316FA3881D91074E00044CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FA3871D91074E00044CFC /* ViewController.swift */; };
 		316FA38B1D91074E00044CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316FA3891D91074E00044CFC /* Main.storyboard */; };
 		316FA38D1D91074E00044CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316FA38C1D91074E00044CFC /* Assets.xcassets */; };
 		316FA3901D91074E00044CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316FA38E1D91074E00044CFC /* LaunchScreen.storyboard */; };
@@ -35,8 +34,7 @@
 
 /* Begin PBXFileReference section */
 		316FA3821D91074E00044CFC /* DouyuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		316FA3851D91074E00044CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		316FA3871D91074E00044CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		316FA3851D91074E00044CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
 		316FA38A1D91074E00044CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		316FA38C1D91074E00044CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316FA38F1D91074E00044CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,7 @@
 		316FA3841D91074E00044CFC /* DouyuZB */ = {
 			isa = PBXGroup;
 			children = (
-				316FA3851D91074E00044CFC /* AppDelegate.swift */,
-				316FA3871D91074E00044CFC /* ViewController.swift */,
+				316FA3B31D91085B00044CFC /* Classes */,
 				316FA3891D91074E00044CFC /* Main.storyboard */,
 				316FA38C1D91074E00044CFC /* Assets.xcassets */,
 				316FA38E1D91074E00044CFC /* LaunchScreen.storyboard */,
@@ -123,6 +120,62 @@
 				316FA3A71D91074E00044CFC /* Info.plist */,
 			);
 			path = DouyuZBUITests;
+			sourceTree = "<group>";
+		};
+		316FA3B31D91085B00044CFC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				316FA3B41D91085B00044CFC /* Follow */,
+				316FA3B51D91085B00044CFC /* Home */,
+				316FA3B61D91085B00044CFC /* Live */,
+				316FA3B71D91085B00044CFC /* Main */,
+				316FA3B81D91085B00044CFC /* Profile */,
+				316FA3B91D91085B00044CFC /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		316FA3B41D91085B00044CFC /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		316FA3B51D91085B00044CFC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		316FA3B61D91085B00044CFC /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		316FA3B71D91085B00044CFC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		316FA3B81D91085B00044CFC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		316FA3B91D91085B00044CFC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				316FA3851D91074E00044CFC /* AppDelegate.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316FA3881D91074E00044CFC /* ViewController.swift in Sources */,
 				316FA3861D91074E00044CFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
