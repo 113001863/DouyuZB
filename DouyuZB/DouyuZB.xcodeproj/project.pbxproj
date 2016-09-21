@@ -135,17 +135,17 @@
 		316FA3B31D91085B00044CFC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				316FA3B41D91085B00044CFC /* Follow */,
-				316FA3B51D91085B00044CFC /* Home */,
-				316FA3B61D91085B00044CFC /* Live */,
-				316FA3B71D91085B00044CFC /* Main */,
-				316FA3B81D91085B00044CFC /* Profile */,
-				316FA3B91D91085B00044CFC /* Tools */,
+				316FA3DE1D927B5900044CFC /* Follow */,
+				316FA3DF1D927B5900044CFC /* Home */,
+				316FA3E01D927B5900044CFC /* Live */,
+				316FA3E11D927B5900044CFC /* Main */,
+				316FA3E21D927B5900044CFC /* Profile */,
+				316FA3E31D927B5900044CFC /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		316FA3B41D91085B00044CFC /* Follow */ = {
+		316FA3DE1D927B5900044CFC /* Follow */ = {
 			isa = PBXGroup;
 			children = (
 				316FA3D61D911D9400044CFC /* Fllow.storyboard */,
@@ -153,7 +153,7 @@
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		316FA3B51D91085B00044CFC /* Home */ = {
+		316FA3DF1D927B5900044CFC /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				316FA3D01D911D1D00044CFC /* Home.storyboard */,
@@ -161,7 +161,7 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		316FA3B61D91085B00044CFC /* Live */ = {
+		316FA3E01D927B5900044CFC /* Live */ = {
 			isa = PBXGroup;
 			children = (
 				316FA3D31D911D3B00044CFC /* Live.storyboard */,
@@ -169,7 +169,7 @@
 			path = Live;
 			sourceTree = "<group>";
 		};
-		316FA3B71D91085B00044CFC /* Main */ = {
+		316FA3E11D927B5900044CFC /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				316FA3CD1D91171400044CFC /* Main.storyboard */,
@@ -178,7 +178,7 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		316FA3B81D91085B00044CFC /* Profile */ = {
+		316FA3E21D927B5900044CFC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 				316FA3D91D911DA600044CFC /* Profile.storyboard */,
@@ -186,7 +186,7 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		316FA3B91D91085B00044CFC /* Tools */ = {
+		316FA3E31D927B5900044CFC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
